@@ -1,0 +1,18 @@
+# CMake generation dependency list for this directory.
+C:/Users/иа/Downloads/cmake-3.16.2-win64-x64/share/cmake-3.16/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Users/иа/Downloads/cmake-3.16.2-win64-x64/share/cmake-3.16/Modules/CMakePackageConfigHelpers.cmake
+C:/Users/иа/Downloads/cmake-3.16.2-win64-x64/share/cmake-3.16/Modules/CheckCSourceCompiles.cmake
+C:/Users/иа/Downloads/cmake-3.16.2-win64-x64/share/cmake-3.16/Modules/CheckIncludeFile.cmake
+C:/Users/иа/Downloads/cmake-3.16.2-win64-x64/share/cmake-3.16/Modules/CheckLibraryExists.cmake
+C:/Users/иа/Downloads/cmake-3.16.2-win64-x64/share/cmake-3.16/Modules/FindDoxygen.cmake
+C:/Users/иа/Downloads/cmake-3.16.2-win64-x64/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/иа/Downloads/cmake-3.16.2-win64-x64/share/cmake-3.16/Modules/FindPackageMessage.cmake
+C:/Users/иа/Downloads/cmake-3.16.2-win64-x64/share/cmake-3.16/Modules/FindThreads.cmake
+C:/Users/иа/Downloads/cmake-3.16.2-win64-x64/share/cmake-3.16/Modules/GNUInstallDirs.cmake
+C:/Users/иа/Downloads/cmake-3.16.2-win64-x64/share/cmake-3.16/Modules/WriteBasicConfigVersionFile.cmake
+D:/C++/CullingSystem/lib/glfw/CMake/modules/FindVulkan.cmake
+D:/C++/CullingSystem/lib/glfw/CMakeLists.txt
+D:/C++/CullingSystem/lib/glfw/cmake_uninstall.cmake.in
+D:/C++/CullingSystem/lib/glfw/src/glfw3.pc.in
+D:/C++/CullingSystem/lib/glfw/src/glfw3Config.cmake.in
+D:/C++/CullingSystem/lib/glfw/src/glfw_config.h.in

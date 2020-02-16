@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+C:/Users/иа/Downloads/cmake-3.16.2-win64-x64/share/cmake-3.16/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/Users/иа/Downloads/cmake-3.16.2-win64-x64/share/cmake-3.16/Modules/CMakeParseArguments.cmake
+C:/Users/иа/Downloads/cmake-3.16.2-win64-x64/share/cmake-3.16/Modules/WriteBasicConfigVersionFile.cmake
+D:/C++/CullingSystem/lib/glm/CMakeLists.txt
+D:/C++/CullingSystem/lib/glm/cmake/CMakePackageConfigHelpers.cmake
+D:/C++/CullingSystem/lib/glm/cmake/GNUInstallDirs.cmake
+D:/C++/CullingSystem/lib/glm/cmake/glm.pc.in
+D:/C++/CullingSystem/lib/glm/cmake/glmBuildConfig.cmake.in
+D:/C++/CullingSystem/lib/glm/cmake/glmConfig.cmake.in

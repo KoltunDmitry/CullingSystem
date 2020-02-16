@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7844CD64-0A82-3386-99A6-E0018A3BCE00}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\C++\CullingSystem\lib\glfw\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/C++/CullingSystem/lib/glfw/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\bin\cmake.exe -SD:/C++/CullingSystem -BD:/C++/CullingSystem/build --check-stamp-file D:/C++/CullingSystem/build/lib/glfw/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CheckCSourceCompiles.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CheckIncludeFile.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CheckLibraryExists.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\FindDoxygen.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\FindThreads.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\GNUInstallDirs.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;D:\C++\CullingSystem\lib\glfw\CMake\modules\FindVulkan.cmake;D:\C++\CullingSystem\lib\glfw\cmake_uninstall.cmake.in;D:\C++\CullingSystem\lib\glfw\src\glfw3.pc.in;D:\C++\CullingSystem\lib\glfw\src\glfw3Config.cmake.in;D:\C++\CullingSystem\lib\glfw\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++\CullingSystem\build\lib\glfw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/C++/CullingSystem/lib/glfw/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\bin\cmake.exe -SD:/C++/CullingSystem -BD:/C++/CullingSystem/build --check-stamp-file D:/C++/CullingSystem/build/lib/glfw/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CheckCSourceCompiles.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CheckIncludeFile.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CheckLibraryExists.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\FindDoxygen.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\FindThreads.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\GNUInstallDirs.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;D:\C++\CullingSystem\lib\glfw\CMake\modules\FindVulkan.cmake;D:\C++\CullingSystem\lib\glfw\cmake_uninstall.cmake.in;D:\C++\CullingSystem\lib\glfw\src\glfw3.pc.in;D:\C++\CullingSystem\lib\glfw\src\glfw3Config.cmake.in;D:\C++\CullingSystem\lib\glfw\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++\CullingSystem\build\lib\glfw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/C++/CullingSystem/lib/glfw/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\bin\cmake.exe -SD:/C++/CullingSystem -BD:/C++/CullingSystem/build --check-stamp-file D:/C++/CullingSystem/build/lib/glfw/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CheckCSourceCompiles.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CheckIncludeFile.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CheckLibraryExists.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\FindDoxygen.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\FindThreads.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\GNUInstallDirs.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;D:\C++\CullingSystem\lib\glfw\CMake\modules\FindVulkan.cmake;D:\C++\CullingSystem\lib\glfw\cmake_uninstall.cmake.in;D:\C++\CullingSystem\lib\glfw\src\glfw3.pc.in;D:\C++\CullingSystem\lib\glfw\src\glfw3Config.cmake.in;D:\C++\CullingSystem\lib\glfw\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++\CullingSystem\build\lib\glfw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/C++/CullingSystem/lib/glfw/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\bin\cmake.exe -SD:/C++/CullingSystem -BD:/C++/CullingSystem/build --check-stamp-file D:/C++/CullingSystem/build/lib/glfw/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CheckCSourceCompiles.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CheckIncludeFile.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CheckLibraryExists.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\FindDoxygen.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\FindThreads.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\GNUInstallDirs.cmake;C:\Users\иа\Downloads\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;D:\C++\CullingSystem\lib\glfw\CMake\modules\FindVulkan.cmake;D:\C++\CullingSystem\lib\glfw\cmake_uninstall.cmake.in;D:\C++\CullingSystem\lib\glfw\src\glfw3.pc.in;D:\C++\CullingSystem\lib\glfw\src\glfw3Config.cmake.in;D:\C++\CullingSystem\lib\glfw\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++\CullingSystem\build\lib\glfw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\C++\CullingSystem\build\ZERO_CHECK.vcxproj">
+      <Project>{3ACE26CF-1A8E-3021-929B-8C7077B65D9E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++\CullingSystem\build\lib\glfw\examples\boing.vcxproj">
+      <Project>{F79265CB-A674-3DB9-B981-CDB55170654F}</Project>
+      <Name>boing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++\CullingSystem\build\lib\glfw\tests\clipboard.vcxproj">
+      <Project>{FDEE0352-ABC6-3BAE-8EB5-14FA7BBFAEC5}</Project>
+      <Name>clipboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++\CullingSystem\build\lib\glfw\tests\cursor.vcxproj">
+      <Project>{8E1BD13E-6D6F-355E-962B-4480E76F4E77}</Project>
+      <Name>cursor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++\CullingSystem\build\lib\glfw\tests\empty.vcxproj">
+      <Project>{D29E7AEE-98ED-3A88-A454-4352C5852D07}</Project>
+      <Name>empty</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++\CullingSystem\build\lib\glfw\tests\events.vcxproj">
+      <Project>{54DE5F5E-1D4A-359A-B15E-66E183EE7EB4}</Project>
+      <Name>events</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++\CullingSystem\build\lib\glfw\tests\gamma.vcxproj">
+      <Project>{BBFB06E6-8AF0-302A-9D50-C3B28A2AC373}</Project>
+      <Name>gamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++\CullingSystem\build\lib\glfw\examples\gears.vcxproj">
+      <Project>{B2231F70-BB9C-39FD-A3DC-4899CB272F4A}</Project>
+      <Name>gears</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++\CullingSystem\build\lib\glfw\src\glfw.vcxproj">
+      <Project>{92B6ADB9-E56A-3237-BBEE-47C6913997A6}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++\CullingSystem\build\lib\glfw\tests\glfwinfo.vcxproj">
+      <Project>{CD7A622B-94C1-354A-9115-F6CD9EB6084E}</Project>
+      <Name>glfwinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++\CullingSystem\build\lib\glfw\examples\heightmap.vcxproj">
+      <Project>{C0F0773B-E479-3B21-89FA-E0006E4FFF1C}</Project>
+      <Name>heightmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++\CullingSystem\build\lib\glfw\tests\icon.vcxproj">
+      <Project>{D6A9D991-189A-38C0-9835-5095484B26C8}</Project>
+      <Name>icon</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++\CullingSystem\build\lib\glfw\tests\iconify.vcxproj">
+      <Project>{0B716FFF-D7CD-33A1-A94B-ECB560B8ABAC}</Project>
+      <Name>iconify</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++\CullingSystem\build\lib\glfw\tests\inputlag.vcxproj">
+      <Project>{E37E9304-9900-37B5-B451-1A31EC5D1D84}</Project>
+      <Name>inputlag</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++\CullingSystem\build\lib\glfw\tests\joysticks.vcxproj">
+      <Project>{8A5A6B9E-63D6-3B0E-BA98-9B978A7615A7}</Project>
+      <Name>joysticks</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++\CullingSystem\build\lib\glfw\tests\monitors.vcxproj">
+      <Project>{A8D3A7DA-B4FF-345F-B169-91CF834A185F}</Project>
+      <Name>monitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++\CullingSystem\build\lib\glfw\tests\msaa.vcxproj">
+      <Project>{EEEEA036-0ABF-3993-A734-E51E56D2E49B}</Project>
+      <Name>msaa</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++\CullingSystem\build\lib\glfw\examples\offscreen.vcxproj">
+      <Project>{E60A9461-52E3-3219-8481-AA65773BCED1}</Project>
+      <Name>offscreen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++\CullingSystem\build\lib\glfw\tests\opacity.vcxproj">
+      <Project>{DCCDA7AE-C8BF-3D37-9C6F-41B176E5F641}</Project>
+      <Name>opacity</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++\CullingSystem\build\lib\glfw\examples\particles.vcxproj">
+      <Project>{1A3F6D4D-B5A5-3DA2-AF6F-582184B74475}</Project>
+      <Name>particles</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++\CullingSystem\build\lib\glfw\tests\reopen.vcxproj">
+      <Project>{7FF9F9C1-EB12-3F66-AE88-446FCFBF4F33}</Project>
+      <Name>reopen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++\CullingSystem\build\lib\glfw\examples\sharing.vcxproj">
+      <Project>{44338D9A-C4E4-39AC-B56E-725B76E6A8D1}</Project>
+      <Name>sharing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++\CullingSystem\build\lib\glfw\examples\simple.vcxproj">
+      <Project>{D727401A-34B5-3135-B9A6-1547B437DB99}</Project>
+      <Name>simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++\CullingSystem\build\lib\glfw\examples\splitview.vcxproj">
+      <Project>{D79BC844-2743-3B44-B62A-B4E0CA24225F}</Project>
+      <Name>splitview</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++\CullingSystem\build\lib\glfw\tests\tearing.vcxproj">
+      <Project>{9D8CCFC5-03B2-399D-B39E-44B1869A7EFB}</Project>
+      <Name>tearing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++\CullingSystem\build\lib\glfw\tests\threads.vcxproj">
+      <Project>{9B58BE0A-D653-372D-A739-9F582CFE0011}</Project>
+      <Name>threads</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++\CullingSystem\build\lib\glfw\tests\timeout.vcxproj">
+      <Project>{EB564993-4811-309C-BE52-D18A654D867F}</Project>
+      <Name>timeout</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++\CullingSystem\build\lib\glfw\tests\title.vcxproj">
+      <Project>{A20FDC08-6CA9-325A-A996-D9748B5987EC}</Project>
+      <Name>title</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++\CullingSystem\build\lib\glfw\examples\wave.vcxproj">
+      <Project>{782073E2-5DE9-3384-B564-3AD755163360}</Project>
+      <Name>wave</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++\CullingSystem\build\lib\glfw\tests\windows.vcxproj">
+      <Project>{39A6F4F0-7849-38D7-ADCC-EBB1AF263701}</Project>
+      <Name>windows</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
